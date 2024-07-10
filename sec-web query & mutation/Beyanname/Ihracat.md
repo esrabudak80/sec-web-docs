@@ -1,0 +1,3 @@
+- musteri: sbr_firma dan adlar cekilir firmaid sgm_beyanname.musteriid ye ve sgm_beyanname.gondericiid ye sgm_beyanname.faturafirmaid ye   kaydedilir. 
+- referans no olusturulur. samim e sorulacak.
+- ihracat cikis ulkesi  `sbr_ulke.edikod` = 'TR' olan deger  `sgm_beyanname.cikisulke` dolar.

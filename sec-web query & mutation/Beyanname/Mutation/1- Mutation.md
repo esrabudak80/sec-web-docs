@@ -1,0 +1,71 @@
+- `createSgmBeyanname` mutationindan yeni beyannamenin kaydi gerceklestirilir. Parametre olarak `input: CreateSgmBeyannameInput` bekler.
+- `departmanid` ve `referansno` da unique constrainti bulunmaktadir.
+- Ornek Request: 
+```
+mutation CreateSgmBeyanname {
+  createSgmBeyanname(input: {
+    departmanid: "D2312B0E-C41D-4DAB-A9EA-78D444BC1F36",
+    referansno: 10012,
+    musteriid: "446BC548-1390-481D-BF82-974B24DAE1C7",
+    kullanicikod: "SINEMK",
+    gondericiid: "446BC548-1390-481D-BF82-974B24DAE1C7",
+    faturafirmaid: "446BC548-1390-481D-BF82-974B24DAE1C7",
+    aliciid: "277DE744-BBCD-465C-BA32-A3C33DF5BEDE",
+    belgesayisi: 3,
+    sevkulke: "052",
+    cikisulke: "052",
+    ticyapilanulke: "039",
+    kurtarihi: "2024-01-23T00:00:00Z",
+    odemesekli: "PESIN",
+    aciklama: "",
+    gonderilengumruk: "590100",
+    yukbosgumruk: "590100",
+    rejim: "SBEX",
+    toplamkap: 40,
+    teslimsekli: "CIF",
+    teslimyeri: "BELÇİKA",
+    faturadovizturu: "USD",
+    dovizalis: 30.1806,
+    fobtutar: 36141.93,
+    konteynersayisi: 0,
+    tasimasekli: "10",
+    sozlesmeturu: "90",
+    faturatutari: 36141.93,
+    konteyner: false,
+    giriscikisgumruk: "220200",
+    beyansahibiid: "65BDC1D3-D77E-4096-881D-9119408B11DC",
+    gidecegiulke: "052",
+    esyaninbulunduguyer: "A41000104",
+    birlikkod: "1",
+    genelsekreterlikkod: "1",
+    birlikkayitno: "2024-01-00002979",
+    kriptokodu: "KRIPTO-12345",
+    birliktutari: 1000,
+    tescilno: "TESCIL-12345",
+    tesciltarihi: "2024-01-01T00:00:00Z",
+    intactarihi: "2024-01-01T00:00:00Z",
+    musterireferansno: "REF-12345",
+    musterireferansno2: "REF-54321",
+    onaykod: "ONAY-12345",
+    bankaodemesekli: "1",
+    odemearaci: "D",
+    banka: "BANKA-12345",
+    cikisaractipi: "1",
+    cikisaracno: "ARAC-12345",
+    cikisaraculke: "052",
+    siniraractipi: "1",
+    siniraracno: "SINIR-12345",
+    nakliyeci: "NAKLIYECI-12345",
+    tasiyicifirmaid: "3DC6F78B-E817-441B-9EC0-133FF226092B",
+    basitusul: 1,
+    yukbosyer: "YER-12345",
+    acentasevkbildirimno: "ACENTA-12345",
+    limankodu: "TRAMB-005",
+    entegrasyonno: "ENTEGRASYON-12345",
+    tev: 500
+  }) {
+    id
+  }
+}
+
+```

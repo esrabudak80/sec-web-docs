@@ -1,0 +1,11 @@
+- `CreateSgmKalemInput` ile yeni kalem kayit islemi gerceklesir.
+- `gtip`, `menseulke`,`faturatutari`, `faturatutaritl`, `burutagirlik`, `netagirlik`, `birimi`, `miktari`, `olcumiktari`, `olcubirimi` , `sgmKalemdiib`, `sgmKalemEsyaGeriGelmeSebebi`, `sgmKalemEkBelge`, `sgmKalemVergi`, `sgmKalemKonteyner`, `sgmKalemOdemeSekli`, `sgmKalemDetay`, `sgmKalemMarka` zorunlu alanlardir.
+-----------------------------------------
+- `sgmKalemdiib: [CreateSgmKalemdiibInput]!` &#8594;  `kalemid`, `diibbelgeno`
+- `sgmKalemEsyaGeriGelmeSebebi: [CreateSgmKalemEsyaGeriGelmeSebebiInput]!` &#8594; `kalemid`, `esyagerigelmesebebikod`
+- `sgmKalemEkBelge: [CreateSgmKalemEkBelgeInput]!` &#8594; `kalemid`, `grupkodu`, `autoIncrementId`
+- `sgmKalemVergi: [CreateSgmKalemVergiInput]!` &#8594; `kalemid`
+- `sgmKalemKonteyner: [CreateSgmKalemKonteynerInput]!` &#8594; `kalemid`, `kapkonteynerno`, `konteynerulke`, `konteynersirano`
+- `sgmKalemOdemeSekli: [CreateSgmKalemOdemeSekliInput]!` &#8594; zorunlu alan yok.
+- `sgmKalemDetay: [CreateSgmKalemDetayInput]!` &#8594; `beyannameid`, `kalemid`, `esyatanimid`, `gc`
+- `sgmKalemMarka: [CreateSgmKalemMarkaInput]!` &#8594; zorunlu alan yok.
